@@ -14,17 +14,19 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: "Users",
-        path: "/overview/users",
-        icon: <IoIcons.IoIosPaper />
+        title: "Portfolio",
+        path: "/overview/portfolio",
+        icon: <FaIcons.FaBitcoin />
       },
       {
-        title: "Revenue",
-        path: "/overview/revenue",
-        icon: <IoIcons.IoIosPaper />
+        title: "Prices",
+        path: "/overview/prices",
+        icon: <FaIcons.FaDollarSign />
       }
     ]
   },
+
+  /*
   {
     title: "Reports",
     path: "/reports",
@@ -52,16 +54,14 @@ export const SidebarData = [
       }
     ]
   },
+  */
+
   {
-    title: "Products",
-    path: "/products",
-    icon: <FaIcons.FaCartPlus />
+    title: "Browse",
+    path: "/browse",
+    icon: <FaIcons.FaSearch />
   },
-  {
-    title: "Team",
-    path: "/team",
-    icon: <IoIcons.IoMdPeople />
-  },
+
   {
     title: "Messages",
     path: "/messages",
