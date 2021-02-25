@@ -19,7 +19,7 @@ export const SidebarData = [
         icon: <FaIcons.FaBitcoin />
       },
       {
-        title: "Prices",
+        title: "Price Tracker",
         path: "/overview/prices",
         icon: <FaIcons.FaDollarSign />
       }
