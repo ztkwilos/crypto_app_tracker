@@ -100,7 +100,12 @@ function PriceTracker() {
   return (
     <div className="container">
       {
-        <select name="currency" value={pair} onChange={handleSelect}>
+        <select
+          className="currencyContainer theme-pink"
+          name="currency"
+          value={pair}
+          onChange={handleSelect}
+        >
           {currencies.map((cur, idx) => {
             return (
               <option key={idx} value={cur.id}>
