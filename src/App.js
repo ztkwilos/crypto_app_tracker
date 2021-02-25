@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
+import Browse from "./pages/Browse";
 
 function App() {
   return (
@@ -11,9 +12,7 @@ function App() {
       <Sidebar />
       <Switch>
         <Route path="/overview" exact component={Overview} />
-        <Route path="/reports/reports1" exact component={ReportsOne} />
-        <Route path="/reports/reports2" exact component={ReportsTwo} />
-        <Route path="/reports/reports3" exact component={ReportsThree} />
+        <Route path="/browse" exact component={Browse} />
         <Route path="/team" exact component={Team} />
       </Switch>
     </Router>
